@@ -1,0 +1,207 @@
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#0f172a;
+min-height:100vh;
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 60px;
+background:transparent;
+border:none;
+color:white;
+}
+
+.logo{
+
+font-size:32px;
+
+font-weight:bold;
+
+}
+
+.logo span{
+
+margin-left:10px;
+
+}
+
+.nav-right{
+
+display:flex;
+
+gap:25px;
+
+font-size:24px;
+
+}
+
+.icon{
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.icon:hover{
+
+transform:scale(1.2);
+
+}
+
+.dashboard-card{
+    width:280px;
+    min-height:220px;
+    background:#1e3a8a;
+    color:white;
+    border-radius:20px;
+    padding:25px;
+}
+
+
+.dashboard-card h1 {
+
+font-size:48px;
+
+margin:10px 0;
+
+}
+
+.dashboard-card h3 {
+
+font-weight:400;
+
+}
+
+.card-icon{
+
+font-size:40px;
+
+margin-bottom:15px;
+
+}
+
+.loader{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+color:white;
+
+}
+
+.spinner{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+border:8px solid rgba(255,255,255,.3);
+
+border-top:8px solid white;
+
+animation:spin 1s linear infinite;
+
+margin-bottom:20px;
+
+}
+
+@keyframes spin{
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+.dashboard{
+    width:100%;
+    min-height:100vh;
+    background:#0f172a;
+}
+
+.dashboard-hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:50px 60px;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:50px;
+
+margin-bottom:10px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+opacity:.8;
+
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+    padding:40px 60px;
+}
+
+.uploadBtn{
+
+padding:18px 30px;
+
+border:none;
+
+border-radius:18px;
+
+font-size:18px;
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+background:white;
+
+cursor:pointer;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.uploadBtn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+}
